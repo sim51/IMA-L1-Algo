@@ -12,6 +12,7 @@ public class Morpion {
 		plateau[1] = new int[] { 0, 0, 0 };
 		plateau[2] = new int[] { 0, 0, 0 };
 		
+		// Variable pour savoir si un joueur a gagner (0 = non, 1= joueur 1, 2=
 		int vainqueur = 0;
 		
 		int tourDuJoueur = 1;

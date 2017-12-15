@@ -1,9 +1,11 @@
 public class Etudiant {
 
+	// question 1
 	public String nom;
 	public String prenom;
 	public int age;
 
+	// question 2
 	public Etudiant(String nom2, String prenom2, int age2) {
 		nom = nom2;
 		prenom = prenom2;
@@ -33,5 +35,7 @@ public class Etudiant {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	
 	
 }
